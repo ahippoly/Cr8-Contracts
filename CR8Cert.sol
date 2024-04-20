@@ -2,9 +2,9 @@
 pragma solidity ^0.8.24;
 
 //NFT for Datasets & Model
-import {ERC721} from "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
-import {ERC721URIStorage} from "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+import {ERC721} from "./lib/openzeppelin/token/ERC721/ERC721.sol";
+import {Ownable} from "./lib/openzeppelin/access/Ownable.sol";
+import {ERC721URIStorage} from "./lib/openzeppelin/token/ERC721/extensions/ERC721URIStorage.sol";
 
 enum datatype {
     images,
